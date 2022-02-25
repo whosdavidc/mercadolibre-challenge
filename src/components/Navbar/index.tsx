@@ -1,18 +1,24 @@
 import React from 'react';
-import SearchBox from './SearchBox';
-import {Image} from "@chakra-ui/react";
-/** import Logo from '../images/logo.png'; */
-import logo from "../images/logo.png"; 
-import personIcon from "../images/personIcon.png";
-import arrowIcon from "../images/arrow.png";
-import image from "../images/envio.jpg";
+import SearchBox from './../Searchbox/index';
+import logo from "../../images/logo.png"; 
+import personIcon from "./../../images/personIcon.png";
+import arrowIcon from "./../../images/arrow.png";
+import image from "./../../images/envio.jpg";
+import logoUbication from "./../../images/ubicacion.png";
+import "./Navbar.css";
 
 const Navbar = () => {
     return (
         <div className="navbar">
-            <div className="ubication">
-                <img src={logo}/>
-                <p>Ubi, Dragones 2486</p>
+            <div className="logo">
+                <img src={logo} id="logo"/>
+                <div className="ubication-logo">
+                    <img src={logoUbication} className="ubication-image"/>
+                    <div className='ubication-text'>
+                        <p>Enviar a Pepito</p>
+                        <p>Dragones 2486</p>
+                    </div>
+                </div>
             </div>
             <div className="nav-sections">
                 <div className="nav-search">
@@ -32,7 +38,7 @@ const Navbar = () => {
                     <div className="options-menu-2">
                         <div className="name">
                             <img className="personIcon"src={personIcon}/>
-                            <p>David</p> 
+                            <p>Pepito</p> 
                             <img src={arrowIcon} className="arrow"/>
                         </div>
                         <div className="shopping">

@@ -1,9 +1,9 @@
 import React from 'react';
-import ProductImage from "./../images/book.jpg";
-import ProductImage2 from "./../images/book2.jpg";
-import ProductImage3 from "./../images/book3.jpg";
+import ProductImage from "./../../images/book.jpg";
+import ProductImage2 from "./../../images/book2.jpg";
+import ProductImage3 from "./../../images/book3.jpg";
 import SliderImage from 'react-zoom-slider';
-
+import "./ImageSlider.css";
 const data = [
     {
         image: ProductImage,

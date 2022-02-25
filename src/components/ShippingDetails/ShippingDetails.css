@@ -1,0 +1,29 @@
+
+.shipping-ways img{
+    width: 1.3rem;
+    margin-right: 2%;
+}
+.ship-price{
+    display: flex;
+    align-items: center;
+}
+.get-in-market{
+    display: flex;
+}
+.get-in-market img{
+    height:1.3rem;
+    margin-right: 2%;
+}
+.arrive{
+    display: flex;
+}
+.llega-hoy{
+    margin-right: 0.3rem;
+}
+.buy-button button{
+    background-color: #2968C8;
+}
+.add-to-cart-button button{
+    background-color: #DAE6FA;
+    color: #3784FA;
+}

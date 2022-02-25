@@ -1,0 +1,13 @@
+.answer{
+    margin-top: 0.4rem;
+    margin-left: 0.4rem;
+    display: flex;
+    color: rgba(0,0,0,.55);
+}
+.corner-icon{
+    border-bottom: 2px solid rgb(207, 207, 207);
+    border-left: 2px solid rgb(207, 207, 207);
+    height: 0.9rem;
+    width: 0.8rem;
+    margin-right: 0.3rem;
+}

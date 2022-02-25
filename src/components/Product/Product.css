@@ -1,0 +1,19 @@
+.unit-product img{
+    width: 80%;
+}
+.unit-product-title{
+    color: rgba(0,0,0,.8);
+    text-align: start;
+    font-size: 0.9rem;
+}
+.unit-product-price{
+    font-size: 1.5rem;
+    text-align: start;
+    margin: 10px 0px 7px 0px;
+}
+.unit-product{
+    width: 30%;
+    border: solid 1px rgb(235, 235, 235);
+    padding: 2%;
+    box-shadow:0 0.5px 0px 0 rgb(0 0 0 / 20%);
+}

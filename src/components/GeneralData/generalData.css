@@ -1,0 +1,31 @@
+.general-data{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    width: 30%;
+}
+.info-product{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    flex-wrap: wrap;
+    padding: 24px 16px 24px 16px;
+    border: solid 1px rgb(235, 235, 235);
+}
+.product-title{
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+.availability{
+    font-weight: bold;
+    font-size: 120%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.reward-points{
+    display: flex;
+}
+.reward-points img{
+    height: 1rem;
+}
