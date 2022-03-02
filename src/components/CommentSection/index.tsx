@@ -23,7 +23,7 @@ const CommentSection = () => {
       setNewComment({comment: "", answer: ""});
       commentInput.current?.focus();
     }, [newComment]
-  )
+  ) 
 
   const addComment = useCallback(
     (comment: Comment) => {
