@@ -1,10 +1,12 @@
 .comment-title{
     margin-top: 5rem;
     font-weight: 100;
+    color: rgba(0,0,0,.9);
 }
 .comment-sub-title{
     margin: 1rem 0;
-    font-weight: 500;
+    font-weight: 600;
+    color: rgba(0,0,0,.9);
 }
 .comment-section{
     text-align: start;
@@ -35,5 +37,5 @@
     border: 0;
 }
 .comand-button-disabled{
-    background-color: rgba(172, 172, 172, 0.5);
+    background-color: #2968C8;
 }

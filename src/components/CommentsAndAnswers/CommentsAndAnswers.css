@@ -1,4 +1,6 @@
 .comment{
     height: 3rem;
     margin: 1rem 0px;
+    color: rgba(0,0,0,.9);
+    font-weight: 400;
 }

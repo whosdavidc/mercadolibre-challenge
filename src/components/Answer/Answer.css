@@ -5,9 +5,10 @@
     color: rgba(0,0,0,.55);
 }
 .corner-icon{
-    border-bottom: 2px solid rgb(207, 207, 207);
-    border-left: 2px solid rgb(207, 207, 207);
+    border-bottom: 1px solid rgb(207, 207, 207);
+    border-left: 1px solid rgb(207, 207, 207);
     height: 0.9rem;
     width: 0.8rem;
     margin-right: 0.3rem;
+    margin-left: 0.3rem;
 }

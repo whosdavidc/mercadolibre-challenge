@@ -11,9 +11,11 @@
     flex-wrap: wrap;
     padding: 24px 16px 24px 16px;
     border: solid 1px rgb(235, 235, 235);
+    border-radius: 8px;
 }
 .product-title{
     text-align: start;
+    color: rgba(0,0,0,.9);
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }

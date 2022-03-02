@@ -16,7 +16,7 @@ const Navbar = () => {
                     <img src={logoUbication} className="ubication-image"/>
                     <div className='ubication-text'>
                         <p>Enviar a Pepito</p>
-                        <p>Dragones 2486</p>
+                        <p>O’Higgins 2355</p>
                     </div>
                 </div>
             </div>
