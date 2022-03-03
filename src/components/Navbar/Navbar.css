@@ -18,11 +18,9 @@
     /* height: 34px; */
     height: 100%;
 }
-
 .logo{
     margin-right: 3%;
 }
-
 .ubication-image{
     height: 1.3rem;
 }
@@ -34,7 +32,7 @@
 }
 .ubication-text{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 .nav-sections{
     display: flex;
@@ -97,11 +95,15 @@
 @media (max-width: 813px) {
     .menu-1{
         width: 100%;
+        display: none;
     }
     .menu-1 p{
         margin-bottom: 0.1rem;
     }
     .menu-2 img{
+        display: none;
+    }
+    .menu-2{
         display: none;
     }
     .nav-search{
@@ -117,8 +119,21 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0 0.2rem ;
-        height: 15rem;
+        padding: 0 0.2rem;
+        height: 8.5rem;
         max-width: 100%;
+    }
+    .ubication-logo{
+        margin-top: 0 !important;
+        align-items: center;
+    }
+    .logo{
+        display: flex;
+        align-items: baseline;
+        justify-content: baseline;
+        margin: 0% !important;
+    }
+    #logo{
+        height: 60%;
     }
 }
