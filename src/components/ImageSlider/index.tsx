@@ -26,9 +26,9 @@ const ImageSlider = () => {
             <div className="product-images">
                 <SliderImage 
                     data={data} 
-                    width="50%" 
+                    width="100%" 
                     showDescription={false} 
-                    direction="right" 
+                    direction="right"
                 />
             </div>
         </div>

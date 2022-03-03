@@ -1,3 +1,9 @@
 .publications-title{
     color: rgba(0,0,0,.9);
 }
+
+@media (max-width: 812px) {
+    .publications{
+        width: 100%;
+    }
+}

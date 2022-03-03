@@ -31,3 +31,13 @@
 .reward-points img{
     height: 1rem;
 }
+
+@media (max-width: 812px) {
+    .general-data{
+        width: 100%;
+        margin: 0;
+    }
+    .reward-points{
+        display: none;
+    }
+}

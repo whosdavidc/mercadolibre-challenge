@@ -33,7 +33,7 @@ const Navbar = () => {
                         <p>Ayuda</p>
                     </div>
                 </div>
-                <div className="menu-2">
+                <div className="menu-2">    
                     <img className="image" src={image}/>
                     <div className="options-menu-2">
                         <div className="name">

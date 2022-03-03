@@ -11,3 +11,9 @@
     height: 15rem;
     background-color: #271F27;
 }
+
+@media (max-width: 813px) {
+    .publicity-box {
+        display: none;
+    }   
+}

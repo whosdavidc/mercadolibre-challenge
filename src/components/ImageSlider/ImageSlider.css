@@ -1,6 +1,6 @@
 .imageSlider{
     display: flex;
-    width: 100%;
+    width: 50%;
     justify-content: center;
     align-items: flex-end;
 }
@@ -10,4 +10,29 @@
 }
 .react-slider{
     margin: 0px;
+}
+
+
+@media (max-width: 813px) {
+    .react-slider__imgZoom{
+        display: none;
+    }
+    .react-slider__lens{
+        display: none;
+    }
+    .react-slider__ul{
+        display: flex;
+        justify-content: center;
+    }
+    .product-images{
+        display: block !important; 
+        width: 100%;
+    }
+    .product-images img{
+        width: 100%;
+    }
+    .react-slider__picture img{
+        height: 100%;
+        width: 100%;
+    }
 }

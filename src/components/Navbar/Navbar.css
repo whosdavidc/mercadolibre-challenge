@@ -15,7 +15,8 @@
     flex-direction: column; 
 }
 .nav-search img{
-    height: 34px;
+    /* height: 34px; */
+    height: 100%;
 }
 
 .logo{
@@ -59,6 +60,7 @@
 
 .menu-1{
     display: flex;
+    flex-wrap: wrap;
     padding-top: 3%; 
 }
 .menu-2{
@@ -72,7 +74,8 @@
     align-items: flex-end;
 }
 .menu-2 .image{
-    height: 38px;
+    height: 2.5rem;
+    /* height: 38px; */
     padding-left: 7%;
 }
 .menu-2 .shopping{
@@ -89,4 +92,33 @@
 .personIcon{
     border-radius: solid black 10px;
     margin-left: 2rem;
+}
+
+@media (max-width: 813px) {
+    .menu-1{
+        width: 100%;
+    }
+    .menu-1 p{
+        margin-bottom: 0.1rem;
+    }
+    .menu-2 img{
+        display: none;
+    }
+    .nav-search{
+        justify-content: center;
+        width: 100%;
+    }
+    .nav-sections{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0.2rem ;
+        height: 15rem;
+        max-width: 100%;
+    }
 }

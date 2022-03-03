@@ -2,10 +2,10 @@ import React from 'react';
 import "./Searchbox.css";
 const SearchBox = () => {
     return (
-         <input 
+        <input 
             className="searchBox" 
             placeholder="Buscar productos, marcas y más... "
-         />
+        />
     )
 }
 
